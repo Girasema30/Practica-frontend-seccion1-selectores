@@ -1,0 +1,48 @@
+/* Indicaciones del taller: 
+    Realice una estructura html que contenga 10 párrafos y 
+    haga que de los 10 párrafos, 5 tengan estilos diferentes.   
+    OJO: 
+    No puede utilizar ni las "class" ni los "id";
+    Utilice los selectores dados en clase. 
+*/
+
+* {
+    text-align: justify;
+}
+
+body[background] {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+h2 {
+    color: aqua;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+}
+
+p[dos*="corona"]{
+    color: darkorange;
+}
+
+div > p[cuatro] {
+    color: blueviolet;
+    font-family: 'Arial', 'Helvetica', 'sans-serif', cursive;
+    text-align:  "center";
+}
+
+p[seis="gobernador"] {
+    color: deeppink;
+}
+
+p[nueve*="francisco-de-miranda" i] {
+    font-family: 'Staatliches', cursive;
+    color: greenyellow;
+}
+
+div > span > p[doce*="cita"] {
+    color: chocolate;
+    text-align: right;
+    font-family: 'WindSong', cursive;
+}
